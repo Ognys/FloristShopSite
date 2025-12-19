@@ -1,31 +1,143 @@
-html {
-  font-size: 14px;
+/* fonts */
+
+/* alegreya-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/alegreya-v39-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+/* alegreya-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/alegreya-v39-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* libre-franklin-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/libre-franklin-v20-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+/* libre-franklin-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/libre-franklin-v20-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* libre-franklin-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/libre-franklin-v20-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* fonts end */
 
 body {
-  margin-bottom: 60px;
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.wrapper {
+  max-width: 1340px;
+  margin: 0 auto;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* start header style */
+
+.header {
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.32), rgba(0,0,0,0.32)),
+  linear-gradient(rgba(255,115,71,0.26), rgba(255,115,71,0.26)),
+  url('/img/svg/Rectangle 129.svg');
+  background-size: cover;
+  background-position: center;
+
+  padding-top: 42px;
+  padding-bottom: 40px;
+
 }
+
+.header-wrapper {
+  display: flex;
+}
+
+.header-wrapper-left {
+  flex: 1;
+  text-align: center;
+}
+
+.header-logo {
+  margin-bottom: 12px;
+}
+
+.header-logo-link {
+  font-size: 60px;
+  line-height: 84px;
+  color: white;
+}
+
+.header-list {
+  display: flex;
+  justify-content: center;
+}
+
+.header-item {
+  margin-right: 60px;
+  color: white;
+}
+
+.header-list:last-child {
+  margin-right: 0;
+}
+
+.header-item-link {
+  font-family: 'Libre Franklin', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.header-icons {
+  display: flex;
+}
+
+.header-icons:last-child {
+  margin-right: 0;
+}
+
+.header-icon {
+  margin-right: 25px;
+}
+
+/* header end style */
+

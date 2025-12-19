@@ -1,7 +1,12 @@
 namespace FloristShop;
 using Microsoft.EntityFrameworkCore;
 
-public class FloristContext(DbContextOptions<FloristContext> options) : DbContext(options)
+public class FloristContext : DbContext
 {
-    public DbSet<Flower> MyProperty { get; set; }
+    public DbSet<FlowerModel> Flowers { get; set; }
+
+    public FloristContext(DbContextOptions<FloristContext> options) : base(options)
+    {
+        
+    }
 }
