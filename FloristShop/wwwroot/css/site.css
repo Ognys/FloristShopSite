@@ -1,58 +1,80 @@
 /* fonts */
 
-/* alegreya-regular - latin */
+/* alegreya-regular - cyrillic */
 @font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Alegreya';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/alegreya-v39-latin-regular.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/alegreya-v39-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
-/* alegreya-700 - latin */
+/* alegreya-500 - cyrillic */
 @font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Alegreya';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/alegreya-v39-latin-700.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* libre-franklin-regular - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/libre-franklin-v20-latin-regular.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* libre-franklin-500 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/libre-franklin-v20-latin-500.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/alegreya-v39-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
-/* libre-franklin-700 - latin */
+/* alegreya-700 - cyrillic */
 @font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Libre Franklin';
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/libre-franklin-v20-latin-700.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/alegreya-v39-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* pt-sans-regular - cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v18-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* pt-sans-700 - cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/pt-sans-v18-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-regular - cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v20-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v20-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v20-cyrillic-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v20-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* fonts end */
@@ -120,7 +142,7 @@ body {
 }
 
 .header-item-link {
-  font-family: 'Libre Franklin', Arial, sans-serif;
+  font-family: 'PT Sans';
   font-size: 15px;
   line-height: 24px;
   font-weight: bold;
@@ -141,3 +163,139 @@ body {
 
 /* header end style */
 
+
+/* footer header style */
+
+.footer {
+  color: black;
+  padding-bottom: 64px;
+}
+
+.footer-bot-item {
+  display: flex;
+  margin-bottom: 65px;
+  padding-top: 78px;
+}
+
+.footer-item-left {
+  margin-right: 55px;
+  flex: 0 0 360px;
+}
+
+.footer-item-left-logo {
+  font-size: 48px;
+  line-height: 67px;
+  margin-bottom: 17px;
+}
+
+.footer-item-left-desc {
+  font-family: 'PT Sans';
+  font-size: 15px;
+  line-height: 17.5px;
+  margin-bottom: 17px;
+  max-width: 279px;
+}
+
+.footer-item-icon-link {
+  margin-right: 24px;
+}
+
+.footer-item-left-icons:last-child {
+  margin-right: 0;
+}
+
+.footer-nav {
+  font-family: 'inter';
+  display: flex;
+}
+
+.footer-menu {
+  margin-right: 140px;
+}
+
+.footer-menu:last-child {
+  margin-right: 0;
+}
+
+.footer-menu-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-menu-item {
+  font-size: 15px;
+  line-height: 17.5px;
+  margin-bottom: 9px;
+}
+
+.footer-menu-link {
+  color: #1E1E1E;
+}
+
+.footer-copyright {
+  font-family: 'Inter';
+  font-size: 15px;
+  opacity: 0.6;
+  color: #1E1E1E;
+  text-align: center;
+}
+
+.footer-top-item {
+  display: flex;
+  padding-top: 85px;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.footer-inputemail {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+  border-right: none;
+  height: 64px;
+  width: 469px;
+  padding-left: 26px;
+  outline: none;
+}
+
+.footer-button {
+  background-color: #717171;
+  color: white;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  height: 64px;
+  width: 177px;
+}
+
+.footer-top-desc {
+  margin-right: 35px;
+}
+
+.footer-top-desc-title {
+  font-family: 'PT Sans';
+  color: #1E1E1E;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.footer-top-desc-text {
+  max-width: 513px;
+  font-family: 'PT Sans';
+  color: #1E1E1E;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: #717171;
+  opacity: 0.5;
+}

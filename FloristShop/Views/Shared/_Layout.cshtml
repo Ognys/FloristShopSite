@@ -14,9 +14,9 @@
         <div class="wrapper">
             <div class="header-wrapper">
                 <div class="header-wrapper-left">
-                    <div class="header-logo">
+                    <h1 class="header-logo">
                         <a href="#" class="header-logo-link">Название салона</a>
-                    </div>
+                    </h1>
                     <nav class="header-nav">
                         <ul class="header-list">
                             <li class="header-item"><a href="#" class="header-item-link">Рождественские подарки</a></li>
@@ -30,9 +30,12 @@
                 </div>
                 <div class="header-wrapper-right">
                     <ul class="header-icons">
-                        <li class="header-icon"><a href="#" class="header-icon-link"><img src="~/img/svg/bag-2.svg" alt="bag" class="header-icon-pic"></a></li>
-                        <li class="header-icon"><a href="#" class="header-icon-link"><img src="~/img/svg/search-normal.svg" alt="search" class="header-icon-pic"></a></li>
-                        <li class="header-icon"><a href="#" class="header-icon-link"><img src="~/img/svg/user.svg" alt="user" class="header-icon-pic"></a></li>
+                        <li class="header-icon"><a href="#" class="header-icon-link"><img src="~/img/svg/bag-2.svg"
+                                    alt="bag" class="header-icon-pic"></a></li>
+                        <li class="header-icon"><a href="#" class="header-icon-link"><img
+                                    src="~/img/svg/search-normal.svg" alt="search" class="header-icon-pic"></a></li>
+                        <li class="header-icon"><a href="#" class="header-icon-link"><img src="~/img/svg/user.svg"
+                                    alt="user" class="header-icon-pic"></a></li>
                     </ul>
                 </div>
             </div>
@@ -40,10 +43,80 @@
     </header>
 
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-top-item">
+                <div class="footer-top-desc">
+                    <h2 class="footer-top-desc-title">Получайте последние новости</h2>
+                    <p class="footer-top-desc-text">Узнавайте первыми о новых поступлениях, акциях, стильных идеях и эксклюзивных анонсах.</p>
+                </div>
+                <div class="footer-formConteiner">
+                    <form action="" class="subscribe">
+                        <input type="text" class="footer-inputemail" placeholder="Введите адрес электронной почты" maxlength="30">
+                        <button class="footer-button">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="footer-bot-item">
+                <div class="footer-item-left">
+                    <h2 class="footer-item-left-logo">Название салона</h2>
+                    <p class="footer-item-left-desc">Этот план развития поможет вам достичь ваших новогодних обещаний и реализовать цели, к которым вы стремились.</p>
+                    <div class="footer-item-left-icons">
+                        <a href="#" class="footer-item-icon-link"><img src="~/img/svg/twitter-icon.svg" alt="twitter" class="footer-pic"></a>
+                        <a href="#" class="footer-item-icon-link"><img src="~/img/svg/linkedin_icon.svg" alt="linkedin" class="footer-pic"></a>
+                        <a href="#" class="footer-item-icon-link"><img src="~/img/svg/facebook_icon.svg" alt="facebook" class="footer-pic"></a>
+                        <a href="#" class="footer-item-icon-link"><img src="~/img/svg/github_icon.svg" alt="github" class="footer-pic"></a>
+                        <a href="#" class="footer-item-icon-link"><img src="~/img/svg/zay_icon.svg" alt="zay" class="footer-pic"></a>
+                        <a href="#" class="footer-item-icon-link"><img src="~/img/svg/basc_icon.svg" alt="basc" class="footer-pic"></a>
+                    </div>
+                </div>
+                <nav class="footer-nav">
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item">
+                            <h3 class="footer-menu-title">Каталог</h3>
+                        </li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Купить продукт</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Продать продукт</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Наши авторы</a></li>
+                    </ul>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item">
+                            <h3 class="footer-menu-title">Ресурсы</h3>
+                        </li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">О нас</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">События</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Руководство</a></li>
+                    </ul>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item">
+                            <h3 class="footer-menu-title">Компания</h3>
+                        </li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Медиа</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Блог</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Цены</a></li>
+                    </ul>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item">
+                            <h3 class="footer-menu-title">Юридическая информация</h3>
+                        </li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Условия</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Конфиденциальность</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Поддержка</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="footer-copyright">© 2026 Название салона. Все права защищены.</p>
+        </div>
+    </footer>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
