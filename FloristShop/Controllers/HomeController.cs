@@ -6,16 +6,24 @@ namespace FloristShop.Controllers;
 
 public class HomeController : Controller
 {
+
+    private readonly FlowerRopsitory _repo;
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, FlowerRopsitory repo)
     {
         _logger = logger;
+        _repo = repo;
     }
+    
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
+
+        await _repo.CreateFlowerData();
+
+        var flowers = await _repo.GetAll();
+        return View(flowers);
     }
 
     public IActionResult Privacy()

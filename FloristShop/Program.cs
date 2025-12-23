@@ -7,6 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<FlowerContext>(x => x.UseSqlite("Data Source=florist.db"));
+builder.Services.AddScoped<FlowerRopsitory>();
+
+
 var app = builder.Build();
 
 

@@ -1,6 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Главня";
+    
 }
+@model List<FloristShop.Flower>
 
 <div class="home">
     <div class="wrapper">
@@ -20,7 +22,7 @@
                         <div class="bouquet-card-pic">
                             <img src="~/img/svg/bof 117.svg" alt="Bouquet" class="bouquet-card-thumb">
                         </div>
-                        <h3 class="bouquet-card-title">Название букета</h3>
+                        <h3 class="bouquet-card-title">@Model[0].Name</h3>
                         <span class="bouquet-card-price">цена 2026р</span>
                     </div>
                     <div class="bouquet-card">
