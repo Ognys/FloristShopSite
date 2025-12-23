@@ -1,0 +1,35 @@
+.home {
+    padding-top: 48px;
+}
+
+.home-text {
+    text-align: center;
+}
+
+.home-title {
+    font-family: 'Alegreya';
+    font-size: 60px;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+
+.home-desc {
+    font-family: 'PT Sans';
+    color: #717171;
+    margin-bottom: 66px;
+}
+
+.bouquet-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 61px;
+    margin-bottom: 48px;
+}
+
+.bouquet-cards:last-child {
+    margin-bottom: 127px;
+}
+
+.bouquet-card {
+    text-align: center;
+}

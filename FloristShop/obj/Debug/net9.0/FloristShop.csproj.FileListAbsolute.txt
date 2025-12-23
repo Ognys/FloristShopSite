@@ -231,4 +231,6 @@
 /Users/ognys/VSCodeProjects/CSharp/FloristShop/FloristShop/obj/Debug/net9.0/compressed/hrmyp0x6r9-z7xk8dg38i.gz
 /Users/ognys/VSCodeProjects/CSharp/FloristShop/FloristShop/obj/Debug/net9.0/compressed/cef7w42sqf-wtoqnumqbh.gz
 /Users/ognys/VSCodeProjects/CSharp/FloristShop/FloristShop/obj/Debug/net9.0/compressed/8tl3ap994q-bcl3ig3uii.gz
-/Users/ognys/VSCodeProjects/CSharp/FloristShop/FloristShop/obj/Debug/net9.0/compressed/u292jr3ch7-1xyfl3c350.gz
+/Users/ognys/VSCodeProjects/CSharp/FloristShop/FloristShop/obj/Debug/net9.0/compressed/z1cio5fkto-1xyfl3c350.gz
+/Users/ognys/VSCodeProjects/CSharp/FloristShop/FloristShop/obj/Debug/net9.0/compressed/83x3m8ooe5-ims0gjes56.gz
+/Users/ognys/VSCodeProjects/CSharp/FloristShop/FloristShop/obj/Debug/net9.0/compressed/h4tm1u6vzd-nxdo4qnyv2.gz

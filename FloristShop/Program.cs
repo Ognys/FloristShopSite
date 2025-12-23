@@ -7,11 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<FloristContext>(options =>
-{
-    options.UseSqlite("Data Source=floristDb.db");
-});
-
 var app = builder.Build();
 
 
