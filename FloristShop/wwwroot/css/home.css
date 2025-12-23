@@ -33,3 +33,28 @@
 .bouquet-card {
     text-align: center;
 }
+
+.home-promo-content {
+    background-image: linear-gradient(rgba(0,0,0,0.32),rgba(0,0,0,0.32)),
+    linear-gradient(rgba(255,230,183,0.30),rgba(255,230,183,0.30)),
+    url('/img/svg/home_promo_fon.svg');
+    padding-top: 211px;
+    padding-bottom: 211px;
+    text-align: center;
+}
+
+.home-promo-title {
+    font-family: 'Alegreya';
+    font-size: 30px;
+    color: white;
+    margin-bottom: 53px;
+}
+
+.home-promo-desc {
+    font-family: 'PT Sans';
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 2%;
+}
